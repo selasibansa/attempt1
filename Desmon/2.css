@@ -71,3 +71,13 @@ h4{
     background-color: rgb(247, 233, 214);
     margin: 10px;
 }
+.flex-containerVI{
+    background-color: azure;
+    display: flex;
+    width: 1512px;
+    height: 982px;
+}
+.menu:hover{
+    color: aqua;
+    transition: .5s ease-in-out;
+}

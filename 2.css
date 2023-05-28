@@ -17,6 +17,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.menu{
+    margin-top: 25px;
+}
 .item{   
     font-size: 40px;
 }
@@ -74,10 +77,20 @@ h4{
 .flex-containerVI{
     background-color: azure;
     display: flex;
-    width: 1512px;
-    height: 982px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 1512px;
+    max-height: 982px;
 }
 .menu:hover{
     color: aqua;
     transition: .5s ease-in-out;
+}
+fieldset{
+    border: 0;
+    border-bottom: 5px solid rgb(97, 81, 61);
+    border-top: 5px solid rgb(97, 81, 61);
+    border-left: 5px solid rgb(97, 81, 61);
+    border-right: 5px solid rgb(97, 81, 61);
+    border-radius: 2px;
 }

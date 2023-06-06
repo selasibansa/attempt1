@@ -94,3 +94,15 @@ fieldset{
     border-right: 5px solid rgb(97, 81, 61);
     border-radius: 2px;
 }
+.flex-containerVI img{
+    display: flex;
+    padding: 20px;
+    margin: 200px auto;
+    background-color: antiquewhite;
+    width: 399.46px;
+    height: 805.37px;
+}
+.flex-containerVI p h1{
+    margin: 200px;
+    padding: 200px
+}

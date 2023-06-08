@@ -69,6 +69,8 @@ h4{
     justify-content: center;
 }
 .box{
+    display: flex;
+    align-items: flex-end;
     width: 626px;
     height: 651px;
     background-color: rgb(247, 233, 214);
@@ -77,10 +79,14 @@ h4{
 .flex-containerVI{
     background-color: azure;
     display: flex;
+    flex-direction: row;
     width: fit-content;
     height: fit-content;
     max-width: 1512px;
     max-height: 982px;
+    background-color: rgb(247, 233, 214);
+    align-items: flex-start;padding: 20px;
+    margin: 200px auto;
 }
 .menu:hover{
     color: aqua;
@@ -95,14 +101,29 @@ fieldset{
     border-radius: 2px;
 }
 .flex-containerVI img{
-    display: flex;
-    padding: 20px;
-    margin: 200px auto;
     background-color: antiquewhite;
-    width: 399.46px;
-    height: 805.37px;
+    object-fit: cover;
 }
-.flex-containerVI p h1{
-    margin: 200px;
-    padding: 200px
+.flex-containerVI h1{
+    width: 534px;
+    height: 296px;
+    margin: 100px 100px;
+}
+.flex-containerVI p{
+    margin: 100px;
+}
+.quote-2{
+    display: flexbox;
+    padding: 0;
+    justify-content: center;
+    margin-top: 100px;
+}
+.quote-2 p {
+    justify-content: space-evenly;
+    height: 0;
+    margin-bottom: 20px;
+}
+.quote-2 h1{
+    height: 0;
+    margin-top: 0px;
 }
